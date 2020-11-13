@@ -1,0 +1,154 @@
+
+.calculatrice-container {
+	margin : auto;
+	margin-top : 40px;
+	width: 402px;
+	height: 667px;
+	background-color: #E6E6E6;
+	border: 1px solid #7A7A7A;
+	padding: 2px 4px;
+	font-family: Arial;
+}
+
+.w-100 {
+	width: 100%;
+}
+.mr-2px {
+	margin-right: 2px;
+}
+.mr-4px {
+	margin-right: 4px;
+}
+.ml-2px {
+	margin-left: 2px;
+}
+.mb-2px {
+	margin-bottom: 2px;
+}
+.bold {
+	font-weight: bold;
+}
+.inline-block {
+	display: inline-block;
+}
+.small {
+	font-size: 0.75em;
+}
+.italic {
+	font-style: italic; 
+}
+
+.en-tete {
+	padding-left: 10px;
+	padding-top: 6px;
+	height: 24px;
+	margin-bottom: 10px;
+}
+
+.gros-titre {
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+.bloc-titre {
+	display: inline-block;
+	font-weight: bold;
+	font-size: x-large;
+	margin-left: 10px;
+	height: 100%;
+	margin-top: 6px;
+}
+.history {
+	height: 100%;
+	width: 44px;
+	background-color: #E6E6E6;
+	border: none;
+	transition-duration: 200ms;
+}
+	.history:hover {
+		background-color: #C1C1C1;
+		border: 1px solid #6E6E6E;
+	}
+
+.affichage {
+	height: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: xx-large;
+	font-weight: bold;
+}
+#content {
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.cont-options {
+	height: 46px;
+	margin-top: 2px;
+	display: flex;
+}
+.option {
+	display: flex;
+	width: 64px;
+	height: 46px;
+	justify-content: center;
+	align-items: center;
+}
+	.option:hover {
+		background-color: #D8D8D8;
+   		border: 1px solid #B0B0B0;
+   		width: 62px;
+   		height: 44px;
+	}
+.tri-fun {
+	width: 158px !important;
+}
+	.tri-fun:hover {
+		width: 156px !important;
+	}
+.key {
+	width: 76px !important;
+	background-color: #F0F0F0;
+}
+	.key:hover {
+		width: 74px !important;
+
+	}
+.numerique {
+	background-color: #FAFAFA;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.operateur {
+	font-size: 2.2em;
+}
+.egal {
+	background-color: #DB9A9E;
+}
+	.egal:hover {
+		background-color: #E57C82;
+		border: 1px solid #F26971;
+		width: 62px;
+   		height: 44px;
+	}
+.grey {
+	background-color: #EAEAEA;
+}
+
+.memory-options {
+	height: 46px;
+	margin-top: 2px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.clavier {
+	height: 344px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: space-around;
+}

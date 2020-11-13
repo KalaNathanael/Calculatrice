@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculatrice</title>
+		<link rel="stylesheet" type="text/css" href="./css/calculatrice.css" />
+		<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<div class="calculatrice-container">
+			<div class="en-tete w-100">
+				Calculatrice
+			</div>
+			<div class="gros-titre w-100">
+				<span class="bloc-titre">Scientifique</span>
+				<button class="history"><i class="fa fa-history fa-2x" aria-hidden="true"></i></button>
+			</div>
+			<div class="affichage w-100">
+				<span id="content">0</span>
+			</div>
+			<div class="cont-options w-100">
+				<div class="option ml-2px bold">DEG</div>
+				<div class="option ml-2px bold">F-E</div>
+			</div>
+			<div class="memory-options w-100 mb-2px">
+				<div class="option bold">MC</div>
+				<div class="option bold">MR</div>
+				<div class="option bold">M+</div>
+				<div class="option bold">M-</div>
+				<div class="option bold">MS</div>
+				<div class="option bold">M<i class="fa fa-caret-down"></i></div>
+			</div>
+			<div class="cont-options grey w-100 mb-2px">
+				<div class="option tri-fun"><span class="inline-block mr-4px">Trigonométrie</span> <i class="fa fa-angle-down"></i></div>
+				<div class="option tri-fun ml-2px"><span class="inline-block mr-4px">Fonction</span> <i class="fa fa-angle-down"></i></div>
+			</div>
+			<div class="clavier">
+				<div class="option key"><span class="inline-block">2<sup class="small">nd</sup></span></div>
+				<div class="option key">&#960</div>
+				<div class="option key">e</div>
+				<div class="option key">CE</div>
+				<div class="option key"><i class="fa fa-long-arrow-left"></i></div>
+
+				<div class="option key"><span class="inline-block"><span class="italic">x</span><sup>2</sup></span></div>
+				<div class="option key"><span class="inline-block"><sup>1</sup>/<sub class="small italic">x</sub></span></div>
+				<div class="option key italic">|x|</div>
+				<div class="option key">exp</div>
+				<div class="option key">mod</div>
+
+				<div class="option key"><span><sup class="small">2</sup>&#8730<span class="italic">x</span></span></div>
+				<div class="option key">(</div>
+				<div class="option key">)</div>
+				<div class="option key">n!</div>
+				<div class="option key operateur">&#247</div>
+
+				<div class="option key"><span class="italic">x<sup class="small">y</sup></span></div>
+				<div class="option key numerique" >7</div>
+				<div class="option key numerique">8</div>
+				<div class="option key numerique">9</div>
+				<div class="option key operateur">&#215</div>
+
+				<div class="option key"><span>10<sup class="small italic">x</sup></span></div>
+				<div class="option key numerique">4</div>
+				<div class="option key numerique">5</div>
+				<div class="option key numerique">6</div>
+				<div class="option key operateur">-</div>
+
+				<div class="option key">log</div>
+				<div class="option key numerique">1</div>
+				<div class="option key numerique">2</div>
+				<div class="option key numerique">3</div>
+				<div class="option key operateur">+</div>
+
+				<div class="option key">ln</div>
+				<div class="option key numerique"><span><sup>+</sup>/<sub>-</sub></span></div>
+				<div class="option key numerique" onclick="writeAffichage(0)">0</div>
+				<div class="option key numerique">,</div>
+				<div class="option key egal operateur">=</div>
+			</div>
+		</div>
+	</body>
+</html>
